@@ -1,0 +1,6 @@
+cv2
+numpy
+mediapipe
+tensorflow
+tensorflow.keras.models
+pyautogui
