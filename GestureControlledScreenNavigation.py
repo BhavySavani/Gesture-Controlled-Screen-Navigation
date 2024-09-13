@@ -70,9 +70,9 @@ while True:
 
     # Show the final output
     cv2.imshow("Output", frame) 
-    if className=="fist":
+    if className=="thumbs up":
         pyautogui.scroll(100)
-    if className=="rock":
+    if className=="thumbs down":
         pyautogui.scroll(-100)
     if cv2.waitKey(1) == ord('q'):
         break
